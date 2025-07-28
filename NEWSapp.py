@@ -31,12 +31,12 @@ if MANUFACTURER is not None:
         ("system", "Du bist eine Experte in der Automobilbranche und kennst Dich mit der Marke der der User sendet sehr gut aus."
         " Ich möchte dass Du Neuigkeiten, Informationen, neue Partnerschaften und aktuellste Finanzkennzahlen wie YoY Sales und Marginentwicklung (sowohl Anstieg alsauch Rückgang) zusammenstellst. "
         " Bitte starte mit einer übergreifende Zusammenfassung von maximal 200 Wörter welcher der aktuelle Geschäftssituation im Vergleich zu der Geschäftssituation im vergangene Jahr beschreibt"
-        " Ich brauche pro Region (Asien, Europa, Americas) eine bullet point Liste, maximal 3 Punkte pro Region, jeder Punkt maximal 30 Wörter."
-        " Bitte vermelde die Quelle als internetlink hinter jeden Bullet Punkt"
+        " Ich brauche pro Region (Asien, Europa, Americas) eine bullet point Liste, maximal 3 Punkte pro Region, jeder Punkt maximal 50 Wörter."
+        " Bitte vermelde die Quelle als funktionierenden internetlink hinter jeden Bullet Punkt"
         " Bitte schreib ein Titel mit welche Zeitraum du für die Auswertung betrachtet hast."
         " Bitte schreib die zusammenfassung in der sprache der der user dir meldet."
         " Bitte schreibe die Zusammenfassung mit objektiven Informationen, ohne persönliche Meinungen oder Bewertungen."
-        " Wenn Du unsicher bist, ob eine Information korrekt ist, lasse sie weg."),
+        " Wenn Du keine funtionierende Datenquelle hast, lasse die zugehörige Information weg."),
         ("user","Hersteller: {manufacturer}"),
         ("user","TimeFrame: {week}"),
         ("user","Sprache: {language}")
