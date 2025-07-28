@@ -20,7 +20,7 @@ model = ChatGroq(model="meta-llama/llama-4-maverick-17b-128e-instruct", temperat
 st.title("Chatbot - Automotive News")
 MANUFACTURER = st.chat_input(placeholder="Which automotive manufacturer do you want to know more about?")
 DAYS = st.slider("Which time period (last # of days) you want to evaluate? ", 30, 365, 30)
-WEEK = f"{(datetime.today() - timedelta(days=30)).strftime('%d.%m.%Y')}-{datetime.today().strftime('%d.%m.%Y')}"
+WEEK = f"{(datetime.today() - timedelta(days=DAYS)).strftime('%d.%m.%Y')}-{datetime.today().strftime('%d.%m.%Y')}"
 LANGUAGE = st.chat_input(placeholder="In which language do you want the information? (default = EN)", key="language")
 
 #%%
