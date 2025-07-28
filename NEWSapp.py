@@ -21,12 +21,12 @@ st.title("AI - Automotive News")
 MANUFACTURER = st.chat_input(placeholder="Which automotive manufacturer do you want to know more about?")
 DAYS = st.slider("Which time period (last # of days) you want to evaluate? ", 30, 365, 30)
 WEEK = f"{(datetime.today() - timedelta(days=DAYS)).strftime('%d.%m.%Y')}-{datetime.today().strftime('%d.%m.%Y')}"
-LLANGUAGE = "EN"
+LANGUAGE = "EN"
 
 #%%
 if MANUFACTURER is not None:
     if DAYS is not None:
-        LANGUAGE = st.selectbox("In which language do you want the summary?", ["EN", "DE"], index=1)
+        #LANGUAGE = st.selectbox("In which language do you want the summary?", ["EN", "DE"], index=1)
         messages = [
         ("system", "Du bist eine Experte in der Automobilbranche und kennst Dich mit der Marke der der User sendet sehr gut aus."
         " Ich möchte dass Du Neuigkeiten, Informationen, neue Partnerschaften und aktuellste Finanzkennzahlen wie YoY Sales und Marginentwicklung (sowohl Anstieg alsauch Rückgang) zusammenstellst. "
