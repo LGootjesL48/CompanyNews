@@ -36,7 +36,6 @@ if MANUFACTURER is not None:
             " Bitte vermelde die Quelle als internetlink hinter jeden Bullet Punkt"
             " Bitte schreib ein Titel mit welche Zeitraum du für die Auswertung betrachtet hast."
             " Bitte schreib die zusammenfassung in der sprache der der user dir meldet."
-            " Bitte beachte dass die Informationen die du mir lieferst, nicht älter als 30 Tage sind."
             " Bitte schreibe die Zusammenfassung mit objektiven Informationen, ohne persönliche Meinungen oder Bewertungen."
             " Wenn Du unsicher bist, ob eine Information korrekt ist, lasse sie weg."),
             ("user","Hersteller: {manufacturer}"),
