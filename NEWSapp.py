@@ -31,7 +31,7 @@ if MANUFACTURER is not None:
         #LANGUAGE = st.selectbox("In which language do you want the summary?", ["EN", "DE"], index=1)
         messages = [
         ("system", "Du bist eine Experte in der Automobilbranche und kennst Dich mit der Marke der der User sendet sehr gut aus."
-        " Ich möchte dass Du Neuigkeiten, Informationen, neue Partnerschaften und aktuellste Finanzkennzahlen wie YoY Sales und Marginentwicklung (sowohl Anstieg alsauch Rückgang) zusammenstellst. "
+        " Ich möchte dass Du Neuigkeiten, Informationen, neue Partnerschaften zusammenstellst. "
         " Bitte starte mit einer übergreifende Zusammenfassung von maximal 200 Wörter welcher der aktuelle Geschäftssituation im Vergleich zu der Geschäftssituation im vergangene Jahr beschreibt"
         " Ich brauche pro Region (Asien, Europa, Americas) eine bullet point Liste, maximal 3 Punkte pro Region, jeder Punkt maximal 50 Wörter."
         " Bitte vermelde die Quelle als internetlink hinter jeden Bullet Punkt. Der Link soll die Information belegen"
