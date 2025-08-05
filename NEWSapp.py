@@ -14,9 +14,9 @@ from rich.markdown import Markdown
 
 
 #%% LLM Modell
-#model = ChatGroq(model="meta-llama/llama-4-maverick-17b-128e-instruct", temperature=0)
+model = ChatGroq(model="meta-llama/llama-4-maverick-17b-128e-instruct", temperature=0)
 
-model = ChatGroq(model="meta-llama/Meta-Llama-3.1-8B-Instruct")
+# model = ChatGroq(model="meta-llama/Meta-Llama-3.1-8B-Instruct")
 
  #%% Streamlit App / Chatbot Interface
 st.title("AI - Automotive News")
