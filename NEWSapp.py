@@ -14,8 +14,10 @@ from rich.markdown import Markdown
 
 
 #%% LLM Modell
-model = ChatGroq(model="meta-llama/llama-4-maverick-17b-128e-instruct", temperature=0)
- 
+#model = ChatGroq(model="meta-llama/llama-4-maverick-17b-128e-instruct", temperature=0)
+
+model = ChatGroq(model="meta-llama/Meta-Llama-3.1-8B-Instruct")
+
  #%% Streamlit App / Chatbot Interface
 st.title("AI - Automotive News")
 MANUFACTURER = st.chat_input(placeholder="Which automotive manufacturer do you want to know more about?")
@@ -32,7 +34,7 @@ if MANUFACTURER is not None:
         " Ich möchte dass Du Neuigkeiten, Informationen, neue Partnerschaften und aktuellste Finanzkennzahlen wie YoY Sales und Marginentwicklung (sowohl Anstieg alsauch Rückgang) zusammenstellst. "
         " Bitte starte mit einer übergreifende Zusammenfassung von maximal 200 Wörter welcher der aktuelle Geschäftssituation im Vergleich zu der Geschäftssituation im vergangene Jahr beschreibt"
         " Ich brauche pro Region (Asien, Europa, Americas) eine bullet point Liste, maximal 3 Punkte pro Region, jeder Punkt maximal 50 Wörter."
-        " Bitte vermelde die Quelle als funktionierenden internetlink hinter jeden Bullet Punkt"
+        " Bitte vermelde die Quelle als internetlink hinter jeden Bullet Punkt. Der Link soll die Information belegen"
         " Bitte schreib ein Titel mit welche Zeitraum du für die Auswertung betrachtet hast."
         " Bitte schreib die zusammenfassung in der sprache der der user dir meldet."
         " Bitte schreibe die Zusammenfassung mit objektiven Informationen, ohne persönliche Meinungen oder Bewertungen."
