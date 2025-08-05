@@ -34,7 +34,7 @@ if MANUFACTURER is not None:
         " Ich möchte dass Du Neuigkeiten, Informationen, neue Partnerschaften zusammenstellst. "
         " Bitte starte mit einer übergreifende Zusammenfassung von maximal 200 Wörter welcher der aktuelle Geschäftssituation im Vergleich zu der Geschäftssituation im vergangene Jahr beschreibt"
         " Ich brauche pro Region (Asien, Europa, Americas) eine bullet point Liste, maximal 3 Punkte pro Region, jeder Punkt maximal 50 Wörter."
-        " Bitte vermelde die Quelle als internetlink hinter jeden Bullet Punkt. Der Link soll die Information belegen"
+        " Bitte vermelde die Quelle als internetlink hinter jeden Bullet Punkt. Erfinde keinen Link. Der Link soll die Information belegen"
         " Bitte schreib ein Titel mit welche Zeitraum du für die Auswertung betrachtet hast."
         " Bitte schreib die zusammenfassung in der sprache der der user dir meldet."
         " Bitte schreibe die Zusammenfassung mit objektiven Informationen, ohne persönliche Meinungen oder Bewertungen."
